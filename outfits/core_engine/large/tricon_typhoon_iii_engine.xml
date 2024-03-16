@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Tricon Typhoon III Engine">
+ <general>
+  <shortname>T. Typhoon III Engine</shortname>
+  <typename>Core Systems (Engine)</typename>
+  <slot prop="engines">structure</slot>
+  <size>large</size>
+  <priority>7</priority>
+  <mass>160</mass>
+  <price>7200000</price>
+  <description>At this size, the definition of a "performance" engine starts to get quite muddy. However, if you're in the market for getting as big a payload going as fast as possible, the Tricon Typhoon III engine is most likely your best bet.</description>
+  <gfx_store>engine5.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <energy_regen_malus>280</energy_regen_malus>
+  <engine_limit>9200</engine_limit>
+  <fuel>2000</fuel>
+  <speed>66</speed>
+  <accel>40</accel>
+  <turn>48</turn>
+ </specific>
+</outfit>

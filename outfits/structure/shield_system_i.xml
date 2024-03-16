@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Shield System I">
+ <general>
+  <typename>Shield Modifier</typename>
+  <slot>structure</slot>
+  <size>large</size>
+  <mass>360</mass>
+  <price>1020000</price>
+  <description>Designed only for capital ships, this is a large, bulky shield system that increases both the capacity and regeneration rate of a ship's shields. However, being its own dedicated subsystem, it requires space on the ship's central processor, which can make it a liability for those attempting to install more weapons.</description>
+  <gfx_store>shield.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <cpu_max>-80</cpu_max>
+  <shield>600</shield>
+  <shield_regen>12</shield_regen>
+  <energy_regen_malus>40</energy_regen_malus>
+ </specific>
+</outfit>

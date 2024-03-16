@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Large Utility Pod">
+ <general>
+  <typename>Cargo and Fuel Modifier</typename>
+  <slot>structure</slot>
+  <size>large</size>
+  <mass>40</mass>
+  <price>300000</price>
+  <description>The utility pod combines fuel and cargo management into one slightly-inconveniently-sized outfit. Naturally, as a combination of the two, it has the downsides of a cargo pod.</description>
+  <gfx_store>large_fuel_pod.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <fuel>800</fuel>
+  <cargo>200</cargo>
+  <cargo_inertia>15</cargo_inertia>
+ </specific>
+</outfit>

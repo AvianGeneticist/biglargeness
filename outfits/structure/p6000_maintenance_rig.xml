@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="P6000 Maintenance Rig">
+ <general>
+  <typename>Power Modifier</typename>
+  <slot>structure</slot>
+  <size>large</size>
+  <mass>800</mass>
+  <price>1830000</price>
+  <gfx_store>reactor_iii.webp</gfx_store>
+  <description>During the development of newer auxiliary processors for large ships and carriers, attempts were made to include self-contained power cells to offset the energy cost of the new CPUs. Over time, this evolved into a full power system being included with newer generation processors, including a small battery. The necessity of compactness means that the system is heavier than the sum of its parts.</description>
+ </general>
+ <specific type="modification">
+  <cpu_max>180</cpu_max>
+  <energy_regen>32</energy_regen>
+  <energy>1500</energy>
+ </specific>
+</outfit>

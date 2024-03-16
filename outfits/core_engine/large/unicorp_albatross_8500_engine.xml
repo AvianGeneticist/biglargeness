@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Unicorp Albatross 8500 Engine">
+ <general>
+  <shortname>U. Albatross 8500 Engine</shortname>
+  <typename>Core Systems (Engine)</typename>
+  <slot prop="engines">structure</slot>
+  <size>large</size>
+  <priority>7</priority>
+  <mass>130</mass>
+  <price>800000</price>
+  <description>Unicorp's largest offering has some of the best grunt-hauling capacity in all of space, at the cost of acceleration and top speed. For ships that are too large to use anything else, this will get them where they need to go - eventually.</description>
+  <gfx_store>unicorp_engine_l.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <energy_regen_malus>180</energy_regen_malus>
+  <engine_limit>11000</engine_limit>
+  <fuel>2800</fuel>
+  <speed>57</speed>
+  <accel>28</accel>
+  <turn>36</turn>
+ </specific>
+</outfit>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Milspec Thalorion 13916 Core System">
+ <general>
+  <shortname>M. Thalorion 13916 System</shortname>
+  <typename>Core Systems (System)</typename>
+  <slot prop="systems">utility</slot>
+  <size>large</size>
+  <priority>7</priority>
+  <mass>2500</mass>
+  <price>9400000</price>
+  <description>There are very few ships that can make use of a core system bank this size, but Milspec considers the 13916 model a love letter to those who want to push their ships beyond all reasonable limit. The tagline states this philosophy in no uncertain terms: "As pricey as a small fleet, and twice as effective."</description>
+  <gfx_store>core_system_cpu_l2.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <cpu_max>6200</cpu_max>
+  <energy>7200</energy>
+  <energy_regen>450</energy_regen>
+  <shield>2100</shield>
+  <shield_regen>28</shield_regen>
+ </specific>
+</outfit>

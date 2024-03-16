@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Shield System II">
+ <general>
+  <typename>Shield Modifier</typename>
+  <slot>structure</slot>
+  <size>large</size>
+  <mass>540</mass>
+  <price>1640000</price>
+  <description>While a secondary dedicated shield system is already a big ask of most ships, this system pushes things to the limit, being fifty percent larger over the original. Its power and system requirements are considerable, but for captains willing to weather the costs, a powerful adjustment to the ship's shields is their reward.</description>
+  <gfx_store>shield.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <cpu_max>-130</cpu_max>
+  <shield>900</shield>
+  <shield_regen>18</shield_regen>
+  <energy_regen_malus>60</energy_regen_malus>
+ </specific>
+</outfit>

@@ -1,0 +1,7 @@
+<plugin name="Big Largeness">
+ <author>Zoura3025</author>
+ <version>0.1</version>
+ <compatibility>^0\.12\..*</compatibility>
+ <description>Adds a bunch of big outfits so you can do big outfit things.</description>
+ <source>https://naev.org</source>
+</plugin>

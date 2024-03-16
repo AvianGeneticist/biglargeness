@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Milspec Thalorion 16117 Core System">
+ <general>
+  <shortname>M. Thalorion 16117 System</shortname>
+  <typename>Core Systems (System)</typename>
+  <slot prop="systems">utility</slot>
+  <size>large</size>
+  <priority>7</priority>
+  <mass>3200</mass>
+  <price>14300000</price>
+  <description>Some particularly large carriers might need extra computational grunt to run all their bays at maximum efficiency. This extremely advanced core system allows them to do just that, so long as they can spare the space.</description>
+  <gfx_store>core_system_cpu_l2.webp</gfx_store>
+ </general>
+ <specific type="modification">
+  <cpu_max>7450</cpu_max>
+  <energy>9000</energy>
+  <energy_regen>535</energy_regen>
+  <shield>2600</shield>
+  <shield_regen>34</shield_regen>
+ </specific>
+</outfit>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Biobond Armour">
+ <general>
+  <typename>Armour Modifier</typename>
+  <slot>structure</slot>
+  <size>large</size>
+  <mass>550</mass>
+  <price>1300000</price>
+  <gfx_store>biometal.webp</gfx_store>
+  <description>Mixing the engineering behind nanobond armor and the biotechnology behind biometal armour has resulted it what some might say is the absolute pinnacle of armour technology. Containing hundreds of tiny compartments per square centimeter with bacteria and nanomachines coexisting to produce new material on demand, there isn't much that can pierce it - at least for very long. Sadly, however, the weight of the material is non-negotiably higher.</description>
+ </general>
+ <specific type="modification">
+  <armour>1100</armour>
+  <armour_regen>3</armour_regen>
+ </specific>
+</outfit>

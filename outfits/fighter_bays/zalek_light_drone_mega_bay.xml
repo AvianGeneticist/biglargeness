@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Za'lek Light Drone Mega Bay">
+ <general>
+  <shortname>Z. L. Drone meB.</shortname>
+  <slot prop="fighter_bay">weapon</slot>
+  <size>large</size>
+  <license>Light Combat Vessel</license>
+  <cond>faction.playerStanding("Za'lek") &gt;= 60</cond>
+  <condstr>You need at least 60 reputation with House Za'lek.</condstr>
+  <rarity>2</rarity>
+  <mass>270</mass>
+  <price>3200000</price>
+  <gfx_store>zalek_drone_light_fighter_swarm.webp</gfx_store>
+  <description>Further elaborating on the expendability of Za'lek light drones, this bay carries a whopping sixteen of them, allowing even one bay to saturate an enemy's defenses. It comes with all the devices required for the maintenance and flight of the drones.</description>
+  <cpu>-1100</cpu>
+ </general>
+ <specific type="fighter bay" secondary="1">
+  <delay>1</delay>
+  <reload_time>60</reload_time>
+  <amount>16</amount>
+  <ship>Za'lek Light Drone</ship>
+  <ship_mass>10</ship_mass>
+ </specific>
+</outfit>

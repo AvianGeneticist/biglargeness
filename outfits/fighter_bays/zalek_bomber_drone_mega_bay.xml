@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Za'lek Bomber Drone Mega Bay">
+ <general>
+  <shortname>Z. B. Drone meB.</shortname>
+  <slot prop="fighter_bay">weapon</slot>
+  <size>large</size>
+  <license>Light Combat Vessel</license>
+  <cond>faction.playerStanding("Za'lek") &gt;= 60</cond>
+  <condstr>You need at least 60 reputation with House Za'lek.</condstr>
+  <rarity>2</rarity>
+  <mass>230</mass>
+  <price>3700000</price>
+  <gfx_store>zalek_drone_bomber_fighter_swarm.webp</gfx_store>
+  <description>With ten Za'lek Bomber Drones on tap, this bay is single-handedly capable of shooting all but the toughest capital ships out of the sky without ever risking the mothership. It comes with all the devices required for the maintenance and flight of the drones.</description>
+  <cpu>-1250</cpu>
+ </general>
+ <specific type="fighter bay" secondary="1">
+  <delay>2</delay>
+  <reload_time>120</reload_time>
+  <amount>10</amount>
+  <ship>Za'lek Bomber Drone</ship>
+  <ship_mass>15</ship_mass>
+ </specific>
+</outfit>
